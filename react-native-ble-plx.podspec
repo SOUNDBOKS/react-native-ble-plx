@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-DMULTIPLATFORM_BLE_ADAPTER'
 
   s.dependency 'React-Core'
-  s.dependency 'SBMultiplatformBleAdapter', '0.1.7'
+  s.dependency 'SBMultiplatformBleAdapter', '0.1.8'
 end
