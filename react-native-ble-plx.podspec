@@ -7,12 +7,12 @@ Pod::Spec.new do |s|
   s.version      = package['version']
   s.summary      = "React Native Bluetooth Low Energy library"
 
-  s.authors      = { "Przemysław Lenart" => "przemek.lenart@gmail.com" }
-  s.homepage     = "https://github.com/Polidea/react-native-ble-plx#readme"
+  s.authors      = { "David Bjerremose" => "david@soundboks.com" }
+  s.homepage     = "https://github.com/SOUNDBOKS/react-native-ble-plx#readme"
   s.license      = "Apache License 2.0"
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/Polidea/react-native-ble-plx.git" }
+  s.source       = { :git => "https://github.com/SOUNDBOKS/react-native-ble-plx.git" }
   s.source_files  = "ios/**/*.{h,m}"
   s.compiler_flags = '-DMULTIPLATFORM_BLE_ADAPTER'
 
