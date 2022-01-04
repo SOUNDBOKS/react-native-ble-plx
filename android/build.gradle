@@ -46,5 +46,5 @@ repositories {
 
 dependencies {
     implementation "com.facebook.react:react-native:+"
-    implementation 'com.github.SOUNDBOKS:MultiPlatformBleAdapter:4e3c21a'
+    implementation 'com.github.SOUNDBOKS:MultiPlatformBleAdapter:ad3dbf37ae3a3460887ab3041965fba6d2f122fc'
 }
