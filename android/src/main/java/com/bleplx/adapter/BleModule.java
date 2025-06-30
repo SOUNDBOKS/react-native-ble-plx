@@ -48,6 +48,7 @@ import com.polidea.rxandroidble2.scan.ScanSettings;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
