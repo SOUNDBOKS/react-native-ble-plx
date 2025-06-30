@@ -376,6 +376,11 @@ public class BleModule extends ReactContextBaseJavaModule implements BleAdapter 
     }
 
     List<Device> localConnectedDevices = new ArrayList<>();
+    Set<RxBleDevice> bleDevices = rxBleClient.getConnectedPeripherals();
+    for (RxBleDevice bleDevice : bleDevices) {
+      Device device = rxBleDeviceToDeviceMapper.map(bleDevice, null);
+      localConnectedDevices.add(device);
+    }
     for (Device device : connectedDevices.values()) {
       for (UUID uuid : uuids) {
         if (device.getServiceByUUID(uuid) != null) {
